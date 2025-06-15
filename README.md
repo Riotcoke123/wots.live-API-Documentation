@@ -19,7 +19,7 @@ Headers:
 
   <h2>2. Get Livestream Info</h2>
   <p>
-    <code>GET https://api.livebeam.live/api/get_livestream?channel_id={streamer_id}</code>
+    <code>GET https://api.livebeam.live/api/get_livestream?channel_id={streamer_id}</code><br>
      <code>GET https://api.livebeam.live/api/get-livestreams?channel_id={streamer_id}&page=1&limit=2</code>
   </p>
   <p><strong>Description:</strong> Retrieve current livestream information for a specific channel.</p>
