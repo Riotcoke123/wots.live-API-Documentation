@@ -23,19 +23,19 @@ Headers:
   </p>
   <p><strong>Description:</strong> Retrieve current livestream information for a specific channel.</p>
 
-  <h2>3. Get Past Livestreams</h2>
+  <h2>2A. Get Past Livestreams/Get Livestream Info</h2>
   <p>
     <code>GET https://api.livebeam.live/api/get-livestreams?channel_id={streamer_id}&page=1&limit=2</code>
   </p>
   <p><strong>Description:</strong> Get recent or past livestream sessions for the given channel ID.</p>
 
-  <h2>4. Get Follower Count</h2>
+  <h2>3. Get Follower Count</h2>
   <p>
     <code>GET https://api.livebeam.live/api/follower-count/{streamer_id}</code>
   </p>
   <p><strong>Description:</strong> Returns the total follower count for the given channel.</p>
 
-  <h2>5. Live Chat via WebSocket</h2>
+  <h2>4. Live Chat via WebSocket</h2>
   <p>
     <code>wss://chat.livebeam.live/ws?channel_id={channel_id}&guest=true</code>
   </p>
