@@ -20,14 +20,10 @@ Headers:
   <h2>2. Get Livestream Info</h2>
   <p>
     <code>GET https://api.livebeam.live/api/get_livestream?channel_id={streamer_id}</code>
+     <code>GET https://api.livebeam.live/api/get-livestreams?channel_id={streamer_id}&page=1&limit=2</code>
   </p>
   <p><strong>Description:</strong> Retrieve current livestream information for a specific channel.</p>
 
-  <h2>2A. Get Past Livestreams/Get Livestream Info</h2>
-  <p>
-    <code>GET https://api.livebeam.live/api/get-livestreams?channel_id={streamer_id}&page=1&limit=2</code>
-  </p>
-  <p><strong>Description:</strong> Get recent or past livestream sessions for the given channel ID.</p>
 
   <h2>3. Get Follower Count</h2>
   <p>
