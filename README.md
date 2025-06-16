@@ -1,4 +1,3 @@
-
 <body>
   <img src="https://github.com/user-attachments/assets/68f35ba9-c7bd-4663-ab6f-ff9ea3422215">
   <h1>wots.live – API Documentation</h1>
@@ -21,10 +20,9 @@ Headers:
   <h2>2. Get Livestream Info</h2>
   <p>
     <code>GET https://api.livebeam.live/api/get_livestream?channel_id={streamer_id}</code><br>
-     <code>GET https://api.livebeam.live/api/get-livestreams?channel_id={streamer_id}&page=1&limit=2</code>
+    <code>GET https://api.livebeam.live/api/get-livestreams?channel_id={streamer_id}&page=1&limit=2</code>
   </p>
   <p><strong>Description:</strong> Retrieve current livestream information for a specific channel.</p>
-
 
   <h2>3. Get Follower Count</h2>
   <p>
@@ -38,8 +36,25 @@ Headers:
   </p>
   <p><strong>Description:</strong> Connect to the live chat websocket for a channel. Guests can read and send messages depending on channel settings.</p>
 
+  <h2>5. Additional Stream Endpoints</h2>
+  <p>
+    <code>GET https://api.livebeam.live/api/recent-streams?limit=6</code>
+  </p>
+  <p><strong>Description:</strong> Retrieve a list of the most recent livestreams (up to 6).</p>
+
+  <p>
+    <code>GET https://api.livebeam.live/api/featured-streamers</code>
+  </p>
+  <p><strong>Description:</strong> Get a list of currently featured streamers on the platform.</p>
+
+  <p>
+    <code>GET https://api.livebeam.live/api/featured-streams?limit=8</code>
+  </p>
+  <p><strong>Description:</strong> Get a list of currently featured streams (limit to 8 results).</p>
+
   <h2>Authentication Notes</h2>
   <p>Some endpoints require authentication or API keys. Ensure you attach proper headers or query parameters where applicable.</p>
 
   <h2>Disclaimer</h2>
   <p>This is an unofficial API reference based on observed usage by <code>wots.live</code>. Endpoints may change without notice.</p>
+</body>
