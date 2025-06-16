@@ -1,5 +1,6 @@
 
 <body>
+  <img src="https://github.com/user-attachments/assets/68f35ba9-c7bd-4663-ab6f-ff9ea3422215">
   <h1>wots.live – API Documentation</h1>
   <p><strong>Website:</strong> <a href="https://wots.live" target="_blank">https://wots.live</a></p>
 
